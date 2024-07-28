@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: purple;
+}
+  
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+  
+h1 {
+    margin-top: 10px;
+    color: white;
+}
+  
+.divPrincipal {
+    margin-top: 10px;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  
+}
+  
+label {
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+}
+  
+button {
+    background-color: rgba(219, 216, 216, 0.377);
+    color: black;
+    height: 20px;
+    padding: 2px;
+    font-size: 10px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+  
+button:active {
+    background-color: darkgray;
+}
+  
+#mensagem {
+    height: 20px;
+    width: 110px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+  
+.input {
+    background: transparent;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+  
+textarea {
+    resize: none;
+    height: 120px;
+    width: 170px;
+    overflow-y: scroll;
+}
+  
+h2 {
+    font-size: 15px;
+}
+  
+.footer {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+  
